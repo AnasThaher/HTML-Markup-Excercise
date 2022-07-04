@@ -1,0 +1,46 @@
+header {
+  height: 4em;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+header img {
+  margin: 0em 1em;
+  height: inherit;
+  display: inline-block;
+}
+header nav {
+  width: 50%;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header ul il:hover {
+  opacity: 0.3;
+}
+header ul il a {
+  color: white;
+}
+section {
+  display: flex;
+  gap: 5%;
+}
+section aside {
+  width: 30%;
+  border: solid 1px black;
+}
+section main {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+section main div {
+  display: flex;
+  gap: 5%;
+  justify-content: space-between;
+}
